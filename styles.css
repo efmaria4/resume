@@ -9,9 +9,9 @@ body {
 
 nav {
     position: sticky;
-    top: 0; /* Stick to the top of the viewport */
-    z-index: 1000; /* Ensure it stays above other content */
-    background-color: #727D73; /* Matches your theme */
+    top: 0; 
+    z-index: 1000; 
+    background-color: #727D73; 
     padding: 10px 20px;
 }
 
@@ -19,8 +19,8 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* For horizontal menu */
-    justify-content: center; /* Center the links */
+    display: flex; 
+    justify-content: center; 
 }
 
 nav ul li {
@@ -29,14 +29,14 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white; /* Change link color */
+    color: white; 
     font-weight: bold;
     font-size: 16px;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #f4f4f9; /* Highlight on hover */
+    color: #f4f4f9; 
 }
 
 .container {
