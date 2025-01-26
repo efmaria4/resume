@@ -1,9 +1,9 @@
 // Event Listeners for Flags
 document.getElementById("english-flag").addEventListener("click", () => {
-    window.location.href = "index-en.html"; // Navigate to the English version
+    window.location.href = "https://github.com/efmaria4/resume/blob/main/index.html"; // Navigate to the English version
   });
   
   document.getElementById("greek-flag").addEventListener("click", () => {
-    window.location.href = "index-gr.html"; // Navigate to the Greek version
+    window.location.href = "https://github.com/efmaria4/resume/blob/main/greek.html"; // Navigate to the Greek version
   });
   
