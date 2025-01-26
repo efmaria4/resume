@@ -138,11 +138,6 @@ textarea {
     background-color: #4B5945;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
 .card {
     flex: 1 1 calc(33.333% - 10px);
