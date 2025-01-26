@@ -46,12 +46,6 @@ nav ul li a:hover {
     color: #f4f4f9;
 }
 
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column; 
-    }
-}
-
 
 .container {
     max-width: 800px;
