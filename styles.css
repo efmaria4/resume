@@ -46,7 +46,6 @@ nav ul li a:hover {
     color: #f4f4f9;
 }
 
-
 .container {
     max-width: 800px;
     margin: 20px auto;
@@ -55,6 +54,36 @@ nav ul li a:hover {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+
+/* Cards for Skills Section */
+.skills-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px; /* Adds space between cards */
+}
+
+.card {
+    flex: 1 1 calc(50% - 10px); /* Responsive cards */
+    margin: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav ul {
+        flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    }
+
+    .card {
+        flex: 1 1 100%; /* Full width for small screens */
+    }
+}
+
 
 h1, h2 {
     color: #727D73;
