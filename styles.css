@@ -187,18 +187,18 @@ textarea {
 
 .portfolio-button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #727D73;
+    background-color: #4a5b43; /* Adjust color */
     color: white;
-    border: none;
-    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
     font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-align: center;
 }
 
-.portfolio-item:hover {
-    background-color: #4B5945;
+.portfolio-button:hover {
+    background-color: #3a4b33; /* Darker shade on hover */
 }
 
 .card {
