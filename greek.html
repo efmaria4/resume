@@ -1,5 +1,5 @@
-.<!DOCTYPE html>
-<html lang="el">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,29 +21,28 @@
                 <a href="https://efmaria4.github.io/resume/greek.html">
                     <img src="https://github.com/efmaria4/resume/blob/main/Greek%20Flag.png?raw=true" alt="Greek" id="greek-flag" class="flag-icon">
                 </a>
-                <a href="https://efmaria4.github.io/resume/index.html">
+                <a href="https://efmaria4.github.io/resume/">
                     <img src="https://github.com/efmaria4/resume/blob/main/UK%20Flag.png?raw=true" alt="English" id="english-flag" class="flag-icon">
                 </a>
             </li>
+            
         </ul>
     </nav>
 
     <header>
-        <div class="container">
-            <h1>Μαρία Ευστρατίου</h1>
-            <img src="https://github.com/efmaria4/resume/blob/main/IMG_2773.JPG?raw=true" alt="Μαρία Ευστρατίου" class="profile-img">
-        </div>
+        <section id="Summary" class="container">
+        <h1>Μαρία Ευστρατίου</h1>
     </header>
 
     <main>
-        <section id="Summary" class="container">
-            <h2>Περίληψη</h2>
+        <div class="profile-container">
+            <img src="https://github.com/efmaria4/resume/blob/main/IMG_2773.JPG?raw=true" alt="Maria Efstratiou" class="profile-img">
             <p>Εμπειρία στη δημιουργία λειτουργικών ιστοσελίδων χρησιμοποιώντας HTML, CSS και JavaScript. 
                 Εξοικειωμένη να εργάζομαι σε διαφορετικές πλατφόρμες και να χρησιμοποιώ ποικιλία εργαλείων
                 ανάπτυξης. Ικανή να δουλεύω ανεξάρτητα και ως μέλος μιας ομάδας, με προσοχή στη λεπτομέρεια και
                 έμφαση στη δημιουργικότητα. Εύκολη στην εκμάθηση νέων δεξιοτήτων και στην εφαρμογή τους με
                 αποτελεσματικότητα.</p>
-        </section>
+        </div>
 
         <section id="Education" class="container">
             <h2>Εκπαίδευση</h2>
@@ -55,7 +54,7 @@
                     </ul>
                 </li>
                 <li><b>Προγράμματα Εκπαίδευσης</b>
-                    <ul>
+                        <ul>
                         <li>Εκπαίδευση Ανάπτυξης Ιστοσελίδων: Εκμάθηση δημιουργίας και διαχείρισης λειτουργικών ιστοσελίδων με χρήση HTML και άλλων τεχνολογιών.</li>
                         <li>Εκπαίδευση Πωλήσεων: Συμμετοχή σε πρόγραμμα πωλήσεων, με έμφαση στην οργάνωση συναντήσεων και στρατηγικές πωλήσεων.</li>
                     </ul>
@@ -99,33 +98,59 @@
 
         <section id="Download" class="container">
             <h2>Κατέβασμα Βιογραφικού</h2>
-            <a href="https://github.com/efmaria4/resume/blob/main/Maria_Efstratiou_Greek.pdf" download="Maria_Efstratiou_Resume.pdf" class="download-button">Κατέβασμα PDF</a>
+            <a href="https://raw.githubusercontent.com/efmaria4/resume/main/Maria_Efstratiou_English.pdf" download="Maria_Efstratiou_Resume.pdf" class="download-button">Download PDF</a>
         </section>
-        <section id="contact" class="container">
-            <h2>Επικοινωνία</h2>
+
+        <section id="portfolio" class="container">
+            <h2>Πορτοφόλιο</h2>
+    <!--    <div class="portfolio-item">Sales Work</!--<div>    -->
+            <div class="portfolio-item">Web Development</div>
+            <div class="portfolio-item">Web Design</div>
+            <div class="portfolio-item">Graphic Design</div>
+        </section>
+
+        <section id="contact-details" class="container">
+            <h2>Πληροφορίες Επικοινωνίας</h2>
+            <ul>
+                <li>τηλέφωνο: <a href="tel:+30 698 421 1339">+30 698 421 1339</a></li>
+                
+                <li>email: <a href="mailto:efmaria944@gmail.com">efmaria944@gmail.com </a></li>
+                <br>
+            </li>
+            <li href="https://www.linkedin.com/in/maria-efstratiou-52361533b/">
+                <img src="linkedin.png" alt="LinkedIn" width="40">
+            </a>
+            <a href="https://github.com/efmaria4">
+                <img src="github.png" alt="GitHub" width="40">
+            </a></a></li></ul>
+        </section>
+
+        <section id="contact-form" class="container">
+            <h2>Επικοινωνίστε μαζί μου:</h2>
             <form action="https://formsubmit.co/efmaria944@gmail.com" method="POST">
                 <input type="hidden" name="_redirect" value="https://efmaria4.github.io/resume/">
                 <div class="form-group">
                     <label for="name">Όνομα:</label>
-                    <input type="text" id="name" name="name" placeholder="Πληκτρολογήστε..." required>
+                    <input type="text" id="name" name="name" placeholder="Πληκτρολογίστε..." required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Πληκτρολογήστε..." required>
+                    <input type="email" id="email" name="email" placeholder="Πληκτρολογίστε..." required>
                 </div>
                 <div class="form-group">
                     <label for="message">Μήνυμα:</label>
-                    <textarea id="message" name="message" placeholder="Πληκτρολογήστε... " rows="5" required></textarea>
+                    <textarea id="message" name="message" placeholder="Πληκτρολογίστε... " rows="5" required></textarea>
                 </div>
-                <button type="submit" class="contact-button">Αποστολή Μηνύματος</button>
+                <button type="submit" class="contact-button">Στείλτε Μήνυμα</button>
             </form>
-            <p>Συνδεθείτε μαζί μου στο <a href="https://www.linkedin.com/in/maria-efstratiou-52361533b/">LinkedIn</a> ή στο <a href="https://github.com/efmaria4">GitHub</a></p>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2025 Maria Efstratiou</p>
     </footer>
-    <script src="scripts/contactForm.js" defer></script>
+    <script src="https://raw.githubusercontent.com/efmaria4/resume/main/index.js" defer></script>
 </body>
 </html>
+
+<!--  <p>Συνδεθείτε μαζί μου μέσω: <a href="https://www.linkedin.com/in/maria-efstratiou-52361533b/">LinkedIn</a> ή <a href="https://github.com/efmaria4">GitHub</a></p>  -->
