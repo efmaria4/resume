@@ -63,7 +63,7 @@ nav ul li a:hover {
     flex: 1; 
 }
 
-.contact-details{
+.contact-details li{
     text-decoration: none;
 }
 
