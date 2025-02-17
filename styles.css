@@ -199,6 +199,8 @@ textarea {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-decoration: none;
+
 }
 
 .portfolio-item:hover {
