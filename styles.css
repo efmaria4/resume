@@ -63,6 +63,10 @@ nav ul li a:hover {
     flex: 1; 
 }
 
+.contact-details{
+    text-decoration: none;
+}
+
 .container {
     max-width: 800px;
     margin: 20px auto;
